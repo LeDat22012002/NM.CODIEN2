@@ -16,18 +16,24 @@ const HeaderPublic = () => {
                 <div className="flex items-center gap-2 w-[50%]">
                     <div className="flex items-center gap-2 px-4 py-2">
                         {navigation.map((el) => (
-                            <button
+                            <div
                                 key={el.id}
-                                // onClick={() => handleActive(el?.value)}
                                 className={clsx(
-                                    'flex items-center gap-1 px-3 py-1.5 text-sm border rounded border-blue-600 transition'
-                                    //   currentNav === el.value
-                                    //     ? 'bg-blue-600 text-white'
-                                    //     : 'text-blue-600 hover:bg-blue-100'
+                                    'flex items-center gap-1 px-3 py-1.5 text-[14px] rounded transition cursor-pointer'
                                 )}
                             >
-                                {el.value}
-                            </button>
+                                <span
+                                    className={clsx(
+                                        'relative inline-block',
+                                        'after:content-[""] after:absolute after:-bottom-1.5 after:left-0 after:h-[3px]',
+                                        'after:w-full after:bg-mainHP after:origin-left after:scale-x-0',
+                                        'after:transition-transform after:duration-300',
+                                        'hover:after:scale-x-100'
+                                    )}
+                                >
+                                    {el.value}
+                                </span>
+                            </div>
                         ))}
                     </div>
                 </div>

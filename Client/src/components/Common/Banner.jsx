@@ -1,6 +1,6 @@
 import { memo, useState, useEffect } from 'react';
-import Banner1 from '../../assets/images/che-tao-kim-loai.jpg';
-import Banner4 from '../../assets/images/dien-lanh.jpg';
+import Banner1 from '../../assets/images/BG1.png';
+import Banner4 from '../../assets/images/BG3.png';
 import Banner5 from '../../assets/images/Banner1.jpg';
 
 const images = [Banner1, Banner4, Banner5];
@@ -35,7 +35,7 @@ const Banner = () => {
                         key={i}
                         onClick={() => handleSelect(i)}
                         className={`w-5 h-1 transition-all duration-300 cursor-pointer ${
-                            index === i ? 'bg-main scale-125' : 'bg-gray-200'
+                            index === i ? 'bg-mainHP scale-125' : 'bg-gray-200'
                         }`}
                     />
                 ))}
