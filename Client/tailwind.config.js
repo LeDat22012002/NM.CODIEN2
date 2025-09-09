@@ -36,6 +36,16 @@ export default {
                 'slide-up': 'slideUp 0.4s ease-in',
                 'slide-down': 'slideDown 0.4s ease-out',
             },
+            backgroundImage: {
+                icons: "url('/images/icon-hoaphat.png')",
+            },
+            backgroundPosition: {
+                'icon-prev': '-230px -15px', // tọa độ mũi tên trái
+                'icon-next': '-190px -15px', // tọa độ mũi tên phải
+            },
+            spacing: {
+                icon: '32px', // kích thước icon chuẩn
+            },
         },
     },
     plugins: [],
