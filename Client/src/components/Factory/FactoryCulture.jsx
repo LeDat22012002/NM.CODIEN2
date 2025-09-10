@@ -5,10 +5,10 @@ import Banner8 from '../../assets/images/Image.jfif';
 const FactoryCulture = () => {
     return (
         <div>
-            <div className="my-4">
+            <div className="my-4 ">
                 <Label title="VĂN HÓA NHÀ MÁY" />
             </div>
-            <div className="grid grid-cols-4 grid-rows-1 gap-4">
+            <div className="grid grid-cols-4 grid-rows-1 gap-4 ">
                 <div className="col-span-2 row-span-1">
                     <div className="">
                         <LabelBar
@@ -19,9 +19,9 @@ const FactoryCulture = () => {
                     </div>
                     <div
                         data-aos="fade-right"
-                        className="flex flex-col gap-1 px-4"
+                        className="flex flex-col gap-1 px-4 "
                     >
-                        <span className="font-mono text-sm">
+                        <span className="font-sans text-sm">
                             Khẩu hiệu “An toàn là số 1” không chỉ là lời nhắc
                             nhở, mà đã trở thành nguyên tắc sống trong từng thao
                             tác làm việc. Mỗi công nhân đều tuân thủ nghiêm ngặt
@@ -29,7 +29,7 @@ const FactoryCulture = () => {
                             luôn gọn gàng - sạch sẽ và đảm bảo quy trình vận
                             hành đúng chuẩn
                         </span>
-                        <span className="font-mono text-sm">
+                        <span className="font-sans text-sm">
                             Ở đây, tinh thần đồng đội được thể hiện rõ qua sự
                             phối hợp nhịp nhàng giữa ca trưởng và công nhân, qua
                             sự hỗ trợ lẫn nhau để công việc trôi chảy. Mỗi người
@@ -39,7 +39,7 @@ const FactoryCulture = () => {
                             máy như là ngôi nhà thứ 2 của mình.
                         </span>
                     </div>
-                    <div className="">
+                    <div className="mt-2">
                         <LabelBar
                             text="TINH THẦN SÁNG TẠO"
                             textColor="text-black"
@@ -47,7 +47,7 @@ const FactoryCulture = () => {
                         />
                     </div>
                     <div data-aos="fade-right" className="px-4">
-                        <span className="font-mono text-sm">
+                        <span className="font-sans text-sm">
                             Với tinh thần không ngừng học hỏi và đổi mới anh em
                             công nhân viên Nhà máy Cơ Điện 2 đã tạo nên nhiều
                             dấu ấn với nhiều giải pháp cải tiến cải tạo đã giúp
@@ -59,21 +59,21 @@ const FactoryCulture = () => {
                         </span>
                     </div>
                 </div>
-                <div className="w-full h-full col-span-1 row-span-1 ">
+                <div className="w-full h-full col-span-1 row-span-1">
                     <img
                         data-aos="fade-up-left"
                         src={Banner7}
                         alt="banner5"
-                        className="object-cover w-full h-full border border-gray-600 "
+                        className="object-cover w-full h-full p-1 shadow-xl shadow-gray-600/70"
                     />
                 </div>
 
-                <div className="w-full h-full col-span-1 row-span-1 ">
+                <div className="w-full h-full col-span-1 row-span-1">
                     <img
                         data-aos="fade-down-right"
                         src={Banner8}
                         alt="banner6"
-                        className="object-cover w-full h-full "
+                        className="object-cover w-full h-full p-1 shadow-xl shadow-gray-600/70"
                     />
                 </div>
             </div>

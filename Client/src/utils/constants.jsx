@@ -2,23 +2,28 @@ import path from './path';
 export const navigation = [
     {
         id: 1,
-        value: 'Trang chủ',
+        value: 'TRANG CHỦ',
         path: `/${path.HOME}`,
     },
     {
         id: 2,
-        value: 'Xem điểm',
+        value: 'XEM ĐIỂM ',
         path: `/${path.LAYOUT_MAIN}`,
     },
     {
         id: 3,
-        value: 'Tin tức',
+        value: 'ĐÁNH GIÁ',
         path: `/${path.LAYOUT_MAIN}`,
     },
 
     {
         id: 4,
-        value: 'Đăng nhập',
+        value: 'TIN TỨC',
+        path: `/${path.LAYOUT_MAIN}`,
+    },
+    {
+        id: 5,
+        value: 'ĐĂNG NHẬP',
         path: `/${path.LAYOUT_MAIN}`,
     },
 ];

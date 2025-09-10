@@ -10,6 +10,7 @@ export { default as CustomNode } from './Common/CustomNode';
 export { default as FactoryStructure } from './Chart/FactoryStructure';
 //Footer
 export { default as Footer } from './Footer/Footer';
+export { default as FooterBottom } from './Footer/FooterBottom';
 //Button
 export { default as Button } from './Button/Button';
 // Factory

@@ -19,10 +19,10 @@ const HeaderPublic = () => {
                             <div
                                 key={el.id}
                                 className={clsx(
-                                    'flex items-center gap-1 px-3 py-1.5 text-[14px] rounded transition cursor-pointer'
+                                    'flex items-center gap-1 px-3 py-1.5 text-[14px] rounded transition cursor-pointer text-black font-semibold'
                                 )}
                             >
-                                <span
+                                <h3
                                     className={clsx(
                                         'relative inline-block',
                                         'after:content-[""] after:absolute after:-bottom-1.5 after:left-0 after:h-[3px]',
@@ -32,7 +32,7 @@ const HeaderPublic = () => {
                                     )}
                                 >
                                     {el.value}
-                                </span>
+                                </h3>
                             </div>
                         ))}
                     </div>

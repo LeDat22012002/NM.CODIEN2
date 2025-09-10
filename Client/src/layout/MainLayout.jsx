@@ -1,5 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import { Banner, Footer, HeaderPublic, TopHeaderPublic } from '../components';
+import {
+    Banner,
+    Footer,
+    // Footer,
+    HeaderPublic,
+    TopHeaderPublic,
+} from '../components';
 import useScrollHandling from '../hooks/useScrollHandling';
 import { useEffect, useState } from 'react';
 

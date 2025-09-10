@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 const Home = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1000, // Thời gian chạy hiệu ứng (ms)
+            duration: 1200, // Thời gian chạy hiệu ứng (ms)
             once: false, // Chỉ chạy 1 lần khi scroll tới
             offset: 0, // Khoảng cách trước khi bắt đầu animation
         });

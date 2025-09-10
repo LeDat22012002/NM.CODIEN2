@@ -1,7 +1,7 @@
 import { memo, useState, useEffect } from 'react';
 import Banner1 from '../../assets/images/BG1.png';
 import Banner4 from '../../assets/images/BG3.png';
-import Banner5 from '../../assets/images/Banner1.jpg';
+import Banner5 from '../../assets/images/Screenshot_4.png';
 
 const images = [Banner1, Banner4, Banner5];
 
@@ -22,7 +22,7 @@ const Banner = () => {
     };
 
     return (
-        <div className="relative w-full h-[600px] mx-auto">
+        <div className="relative w-full h-[600px] mx-auto shadow-2xl">
             <img
                 src={images[index]}
                 alt="banner"
