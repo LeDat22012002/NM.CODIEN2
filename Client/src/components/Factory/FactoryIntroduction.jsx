@@ -18,16 +18,22 @@ const FactoryIntroduction = () => {
                     </div>
                     <div data-aos="fade-right" className="flex flex-col px-4">
                         <span className="font-sans text-sm">
-                            Nhà máy Cơ Điện 2 được thành lập vào ngày 01 tháng
-                            07 năm 2023, là đơn vị bảo trì, sửa chữa thiết bị,
-                            dây chuyền cho 04 đơn vị sản xuất: Nhà máy Luyện
-                            Gang 1, nhà máy Luyện Gang 2, nhà máy Nhiệt Điện 1,
-                            nhà máy Nhiệt Điện 2 động ổn định, đảm bảo sản xuất.
-                            Đảm bảo, tăng cường tính sẵn sàng thiết bị, nâng cao
-                            tuổi thọ của thiết bị trong quá trình sử dụng và hạn
-                            chế những sự cố rủi ro thiết bị gây ra. Đảm bảo phục
-                            vụ sản xuất an toàn, vệ sinh môi trường, tiết kiệm
-                            và đạt hiệu quả cao nhất.
+                            Nhà máy Cơ Điện 2 được thành lập vào ngày{' '}
+                            <span className="font-semibold text-black">01</span>{' '}
+                            tháng{' '}
+                            <span className="font-semibold text-black">07</span>{' '}
+                            năm{' '}
+                            <span className="font-semibold text-black">
+                                2023
+                            </span>{' '}
+                            , là đơn vị bảo trì, sửa chữa thiết bị, dây chuyền
+                            cho 04 đơn vị sản xuất: Nhà máy Luyện Gang 1, nhà
+                            máy Luyện Gang 2, nhà máy Nhiệt Điện 1, nhà máy
+                            Nhiệt Điện 2. Đảm bảo, tăng cường tính sẵn sàng
+                            thiết bị, nâng cao tuổi thọ của thiết bị trong quá
+                            trình sử dụng và hạn chế những sự cố rủi ro thiết bị
+                            gây ra. Đảm bảo phục vụ sản xuất an toàn, vệ sinh
+                            môi trường, tiết kiệm và đạt hiệu quả cao nhất.
                         </span>
                         <span className="font-sans text-sm">
                             Nhà máy Cơ Điện 2 được quản lý, định hướng quản lý

@@ -22,7 +22,9 @@ const Home = () => {
             <FactoryIntroduction />
             <FactoryPersonnel />
             <FactoryCulture />
-            <FactoryVision />
+            <div className="flex justify-center">
+                <FactoryVision />
+            </div>
         </div>
     );
 };

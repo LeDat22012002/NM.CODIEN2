@@ -22,12 +22,15 @@ const FactoryCulture = () => {
                         className="flex flex-col gap-1 px-4 "
                     >
                         <span className="font-sans text-sm">
-                            Khẩu hiệu “An toàn là số 1” không chỉ là lời nhắc
-                            nhở, mà đã trở thành nguyên tắc sống trong từng thao
-                            tác làm việc. Mỗi công nhân đều tuân thủ nghiêm ngặt
-                            quy định bảo hộ lao động, giữ gìn không gian xưởng
-                            luôn gọn gàng - sạch sẽ và đảm bảo quy trình vận
-                            hành đúng chuẩn
+                            Khẩu hiệu{' '}
+                            <span className="font-semibold">
+                                “An toàn là số 1”
+                            </span>{' '}
+                            không chỉ là lời nhắc nhở, mà đã trở thành nguyên
+                            tắc sống trong từng thao tác làm việc. Mỗi công nhân
+                            đều tuân thủ nghiêm ngặt quy định bảo hộ lao động,
+                            giữ gìn không gian xưởng luôn gọn gàng - sạch sẽ và
+                            đảm bảo quy trình vận hành đúng chuẩn
                         </span>
                         <span className="font-sans text-sm">
                             Ở đây, tinh thần đồng đội được thể hiện rõ qua sự
@@ -50,12 +53,16 @@ const FactoryCulture = () => {
                         <span className="font-sans text-sm">
                             Với tinh thần không ngừng học hỏi và đổi mới anh em
                             công nhân viên Nhà máy Cơ Điện 2 đã tạo nên nhiều
-                            dấu ấn với nhiều giải pháp cải tiến cải tạo đã giúp
-                            tăng cường hiệu quả sản xuất. Đây là thành quả từ sự
-                            phối hợp chặt chẽ giữa các thành viên trong nhóm và
-                            tinh thần sáng tạo trong từng giải pháp. Nhà máy Cơ
-                            điện 2 tự hào khi góp phần tối ưu hóa hoạt động sản
-                            xuất qua từng năm của Thép Hòa Phát Dung Quất
+                            dấu ấn với nhiều giải pháp{' '}
+                            <span className="font-semibold">
+                                đổi mới sáng tạo
+                            </span>{' '}
+                            đã giúp tăng cường hiệu quả sản xuất. Đây là thành
+                            quả từ sự phối hợp chặt chẽ giữa các thành viên
+                            trong nhóm và tinh thần sáng tạo trong từng giải
+                            pháp. Nhà máy Cơ điện 2 tự hào khi góp phần tối ưu
+                            hóa hoạt động sản xuất qua từng năm của Thép Hòa
+                            Phát Dung Quất
                         </span>
                     </div>
                 </div>

@@ -119,11 +119,11 @@ const FactoryPersonnel = () => {
                                         }} // dính về bên trái
                                     >
                                         {/* Box trái */}
-                                        <div className="flex items-center justify-end px-4 py-2 rounded-sm shadow-md bg-mainHP">
+                                        <div className="flex items-center justify-end px-7 py-2 rounded-sm shadow-md bg-mainHP w-[400px]">
                                             <h3 className="font-semibold text-white truncate">
                                                 {row.left}
                                             </h3>
-                                            <div className="ml-2 bg-no-repeat bg-icons bg-icon-prev w-icon h-icon" />
+                                            <div className="bg-no-repeat bg-icons bg-icon-prev w-icon h-icon" />
                                         </div>
 
                                         {/* Đường ngang nối vào trục */}
@@ -146,7 +146,7 @@ const FactoryPersonnel = () => {
                                         <div className="h-px bg-mainHP w-[40px]"></div>
 
                                         {/* Box phải */}
-                                        <div className="flex items-center justify-start px-4 py-2 rounded-sm shadow-md bg-mainHP">
+                                        <div className="flex items-center justify-start px-4 py-2 rounded-sm shadow-md bg-mainHP w-[400px]">
                                             <div className="mr-2 bg-no-repeat bg-icons bg-icon-next w-icon h-icon" />
                                             <h3 className="font-semibold text-white truncate">
                                                 {row.right}
